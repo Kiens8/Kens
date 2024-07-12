@@ -10,7 +10,7 @@ namespace MLLearning
             bool continueRunning = true;
             while (continueRunning)
             {
-                Console.WriteLine("Welcome. Do you want continue for the Sentiment Prediction? (yes/no)");
+                Console.WriteLine("Welcome all. Do you want continue for the Sentiment Prediction? (yes/no)");
                 string userInput = Console.ReadLine().Trim().ToLower();
 
                 if (userInput == "yes" || userInput == "y")
